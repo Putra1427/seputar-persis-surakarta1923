@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 400px;
+      background-color: white;
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #b91c1c;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 6px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #b91c1c;
+      color: white;
+      border: none;
+      padding: 8px 0;
+      margin-top: 15px;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #7f1d1d;
+    }
+
+    .info {
+      margin-top: 25px;
+      font-size: 14px;
+      background-color: #fff7f7;
+      border-left: 5px solid #b91c1c;
+      padding: 10px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Formulir Pendaftaran Member</h2>
+    <form>
+      <label>Nama Lengkap:</label>
+      <input type="text" name="nama" placeholder="Masukkan nama kamu">
+
+      <label>Alamat:</label>
+      <input type="text" name="alamat" placeholder="Masukkan alamat lengkap">
+
+      <label>Jenis Kelamin:</label>
+      <select name="jk">
+        <option value="">-- Pilih --</option>
+        <option>Laki-laki</option>
+        <option>Perempuan</option>
+      </select>
+
+      <label>Tanggal Lahir:</label>
+      <input type="date" name="tgl">
+
+      <label>No. WhatsApp:</label>
+      <input type="text" name="wa" placeholder="08xxxxxxxxxx">
+
+      <button type="submit">Kirim Pendaftaran</button>
+    </form>
+
+    <div class="info">
+      <b>✨ Info Tambahan:</b>
+      <p>Setelah mendaftar, kamu akan mendapat ID member dan undangan eksklusif untuk acara kopi darat komunitas Persis Solo.  
+      Dukung tim kebanggaanmu dengan semangat tanpa padam! 🔥</p>
+    </div>
+  </div>
+</body>
+</html>
